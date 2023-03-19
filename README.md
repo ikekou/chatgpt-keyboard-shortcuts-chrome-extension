@@ -24,7 +24,7 @@ git clone https://github.com/your-username/openai-chatgpt-shortcuts.git
 
 ## Setting
 
-You can change the shortcut settings from [chrome://extensions/shortcuts](chrome://extensions/shortcuts)
+You can change the shortcut settings from `chrome://extensions/shortcuts`
 
 ---
 
@@ -52,4 +52,4 @@ git clone https://github.com/your-username/openai-chatgpt-shortcuts.git
 
 ## 設定
 
-[chrome://extensions/shortcuts](chrome://extensions/shortcuts)からショートカット設定を変更することができます。
+`chrome://extensions/shortcuts` からショートカット設定を変更することができます。
