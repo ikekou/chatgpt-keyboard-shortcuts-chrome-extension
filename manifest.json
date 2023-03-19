@@ -1,0 +1,60 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Keyboard Shortcuts",
+    "version": "1.0",
+    "description": "Adds shortcuts to chat.openai.com",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/chat/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "commands": {
+        "click_new_chat": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+N",
+                "mac": "MacCtrl+Shift+N"
+            },
+            "description": "Click 'New chat'"
+        },
+        "click_stop_or_regenerate": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+S",
+                "mac": "MacCtrl+Shift+S"
+            },
+            "description": "Click 'Stop generating or Regenerate response'"
+        },
+        "copy_last_text": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+C",
+                "mac": "MacCtrl+Shift+C"
+            },
+            "description": "Copy last text"
+        },
+        "focus_to_input": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+I",
+                "mac": "MacCtrl+Shift+I"
+            },
+            "description": "Focus to input"
+        }
+    }
+}
