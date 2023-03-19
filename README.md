@@ -26,6 +26,11 @@ git clone https://github.com/your-username/openai-chatgpt-shortcuts.git
 
 You can change the shortcut settings from `chrome://extensions/shortcuts`
 
+## Warning
+
+- The DOM selectors used in this extension may be arbitrary, and it is unknown when they might stop working.
+- We are not responsible for any damages resulting from the use of this software, including but not limited to data loss, hardware damage, system downtime, or loss of profits. This software is to be used at the user's own risk.
+
 ---
 
 このChromeエクステンションは、https://chat.openai.com/ で使用するためのショートカットキーを追加します。
@@ -53,3 +58,8 @@ git clone https://github.com/your-username/openai-chatgpt-shortcuts.git
 ## 設定
 
 `chrome://extensions/shortcuts` からショートカット設定を変更することができます。
+
+## 注意
+
+- 適当にDOMのセレクタを書いているのでいつ動かなくなるかはわかりません。
+- 本ソフトウェアの使用によって生じたいかなる損害に対しても責任を負いません。これには、データの損失、ハードウェアの損傷、システムのダウンタイム、利益の損失など、直接的または間接的な損害が含まれます。本ソフトウェアは、利用者の責任において使用されるものとします。
