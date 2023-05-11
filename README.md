@@ -8,6 +8,7 @@ This Chrome extension adds shortcut keys for use on https://chat.openai.com/.
 - `Ctrl+Shift+S`: Stop generating or regenerate response.
 - `Ctrl+Shift+C`: Copy last generated text.
 - `Ctrl+Shift+I`: Focus to input textarea.
+- `Ctrl+Shift+4`: Switch to GPT-4 (new chat only). 
 
 ## Installation
 
@@ -26,6 +27,8 @@ git clone https://github.com/your-username/openai-chatgpt-shortcuts.git
 
 You can change the shortcut settings from `chrome://extensions/shortcuts`
 
+However, `Ctrl+Shift+4` cannot be changed due to limitations on Chrome's side.
+
 ## Warning
 
 - The DOM selectors used in this extension may be arbitrary, and it is unknown when they might stop working.
@@ -41,6 +44,7 @@ You can change the shortcut settings from `chrome://extensions/shortcuts`
 - `Ctrl+Shift+S`: レスポンスの生成を停止または再生成します。
 - `Ctrl+Shift+C`: 最後に生成されたテキストをコピーします。
 - `Ctrl+Shift+I`: 入力テキストエリアにフォーカスを移動します。
+- `Ctrl+Shift+4`: GPT-4に切り替えます（新規チャットのみ）。
 
 ## インストール方法
 
@@ -58,6 +62,8 @@ git clone https://github.com/your-username/openai-chatgpt-shortcuts.git
 ## 設定
 
 `chrome://extensions/shortcuts` からショートカット設定を変更することができます。
+
+ただしChrome側の制限で `Ctrl+Shift+4` は変更できません。
 
 ## 注意
 
