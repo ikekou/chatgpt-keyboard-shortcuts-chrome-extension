@@ -36,3 +36,21 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     document.querySelector('textarea').focus();
   }
 });
+
+function switchToGPT4() {
+  location.search = 'model=gpt-4';
+}
+
+function setupKeyboardShortcutCtrlShift4(e) {
+  if (e.ctrlKey && e.shiftKey && e.key === '4') {
+    switchToGPT4();
+  }
+}
+
+function setupKeyboardShortcut() {
+  window.addEventListener('keyup', (e) => {
+    setupKeyboardShortcutCtrlShift4(e);
+  });
+}
+
+setupKeyboardShortcut();
